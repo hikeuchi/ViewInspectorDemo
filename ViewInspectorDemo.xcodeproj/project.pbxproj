@@ -119,7 +119,6 @@
 		2AB758ED29792C140033069B /* Inspection+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Inspection+Model.swift"; sourceTree = "<group>"; };
 		2AB758F129793EAA0033069B /* AlertView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView2.swift; sourceTree = "<group>"; };
 		2AB758F3297942C50033069B /* ActionSheetView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView1.swift; sourceTree = "<group>"; };
-		DAE2108529714EB500642E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,7 +186,6 @@
 				2A325558296FED74009D3FA0 /* ContentView.swift */,
 				2A32555A296FED75009D3FA0 /* Assets.xcassets */,
 				2A32555C296FED75009D3FA0 /* Preview Content */,
-				DAE2108529714EB500642E06 /* README.md */,
 				DAE2108629714EB800642E06 /* Guide */,
 				2AA09E432978CED3006DCB47 /* GuideGestures */,
 				2AA09EAA2978D93C006DCB47 /* GuidePopups */,
