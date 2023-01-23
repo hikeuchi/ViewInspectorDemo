@@ -32,8 +32,6 @@
 		2AA09E472978CF65006DCB47 /* GestureModifiersViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA09E462978CF65006DCB47 /* GestureModifiersViewTests.swift */; };
 		2AA09E492978CFF6006DCB47 /* GestureModifiersView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA09E482978CFF6006DCB47 /* GestureModifiersView2.swift */; };
 		2AA09E4B2978D083006DCB47 /* GestureModifiersView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA09E4A2978D083006DCB47 /* GestureModifiersView3.swift */; };
-		2AA09E4E2978D0C4006DCB47 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = 2AA09E4D2978D0C4006DCB47 /* ViewInspector */; };
-		2AA09E512978D0E0006DCB47 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = 2AA09E502978D0E0006DCB47 /* ViewInspector */; };
 		2AA09E532978D1AD006DCB47 /* GestureMaskView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA09E522978D1AD006DCB47 /* GestureMaskView1.swift */; };
 		2AA09E552978D1BB006DCB47 /* GestureMaskViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA09E542978D1BB006DCB47 /* GestureMaskViewTests.swift */; };
 		2AA09E572978D2C0006DCB47 /* GesturePropertiesView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA09E562978D2C0006DCB47 /* GesturePropertiesView1.swift */; };
@@ -45,11 +43,12 @@
 		2AA09E9C2978D6EB006DCB47 /* GestureKeyboardModifiersVIewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA09E9B2978D6EB006DCB47 /* GestureKeyboardModifiersVIewTests.swift */; };
 		2AB758E62979274B0033069B /* AlertView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB758E52979274B0033069B /* AlertView1.swift */; };
 		2AB758E8297927940033069B /* AlertViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB758E7297927940033069B /* AlertViewTests.swift */; };
-		2AB758EA297928120033069B /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = 2AB758E9297928120033069B /* ViewInspector */; };
 		2AB758EE29792C140033069B /* Inspection+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB758ED29792C140033069B /* Inspection+Model.swift */; };
 		2AB758F229793EAA0033069B /* AlertView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB758F129793EAA0033069B /* AlertView2.swift */; };
 		2AB758F4297942C50033069B /* ActionSheetView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB758F3297942C50033069B /* ActionSheetView1.swift */; };
-		2AB758F6297943B50033069B /* ActionSheetViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB758F5297943B50033069B /* ActionSheetViewTests.swift */; };
+		2AFB0003297E2212007E4946 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = 2AFB0002297E2212007E4946 /* ViewInspector */; };
+		2AFB0005297E2218007E4946 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = 2AFB0004297E2218007E4946 /* ViewInspector */; };
+		2AFB0007297E221D007E4946 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = 2AFB0006297E221D007E4946 /* ViewInspector */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,7 +119,6 @@
 		2AB758ED29792C140033069B /* Inspection+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Inspection+Model.swift"; sourceTree = "<group>"; };
 		2AB758F129793EAA0033069B /* AlertView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView2.swift; sourceTree = "<group>"; };
 		2AB758F3297942C50033069B /* ActionSheetView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView1.swift; sourceTree = "<group>"; };
-		2AB758F5297943B50033069B /* ActionSheetViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetViewTests.swift; sourceTree = "<group>"; };
 		DAE2108529714EB500642E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,7 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AA09E4E2978D0C4006DCB47 /* ViewInspector in Frameworks */,
+				2AFB0003297E2212007E4946 /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AA09E512978D0E0006DCB47 /* ViewInspector in Frameworks */,
+				2AFB0005297E2218007E4946 /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AB758EA297928120033069B /* ViewInspector in Frameworks */,
+				2AFB0007297E221D007E4946 /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +325,6 @@
 			isa = PBXGroup;
 			children = (
 				2AB758E7297927940033069B /* AlertViewTests.swift */,
-				2AB758F5297943B50033069B /* ActionSheetViewTests.swift */,
 				2AB758ED29792C140033069B /* Inspection+Model.swift */,
 			);
 			path = GuidePopupTests;
@@ -383,7 +380,7 @@
 			);
 			name = GuideTests;
 			packageProductDependencies = (
-				2AA09E4D2978D0C4006DCB47 /* ViewInspector */,
+				2AFB0002297E2212007E4946 /* ViewInspector */,
 			);
 			productName = ViewInspectorDemoTests;
 			productReference = 2A325563296FED75009D3FA0 /* GuideTests.xctest */;
@@ -404,7 +401,7 @@
 			);
 			name = GuideGesturesTests;
 			packageProductDependencies = (
-				2AA09E502978D0E0006DCB47 /* ViewInspector */,
+				2AFB0004297E2218007E4946 /* ViewInspector */,
 			);
 			productName = GuideGesturesTests;
 			productReference = 2AA09E3A2978CE74006DCB47 /* GuideGesturesTests.xctest */;
@@ -425,7 +422,7 @@
 			);
 			name = GuidePopupTests;
 			packageProductDependencies = (
-				2AB758E9297928120033069B /* ViewInspector */,
+				2AFB0006297E221D007E4946 /* ViewInspector */,
 			);
 			productName = GuidePopupTests;
 			productReference = 2AA09EAF2978D95F006DCB47 /* GuidePopupTests.xctest */;
@@ -468,7 +465,7 @@
 			);
 			mainGroup = 2A32554A296FED74009D3FA0;
 			packageReferences = (
-				2AA09E4C2978D0C4006DCB47 /* XCRemoteSwiftPackageReference "ViewInspector" */,
+				2AFB0001297E2212007E4946 /* XCRemoteSwiftPackageReference "ViewInspector" */,
 			);
 			productRefGroup = 2A325554296FED74009D3FA0 /* Products */;
 			projectDirPath = "";
@@ -578,7 +575,6 @@
 			files = (
 				2AB758E8297927940033069B /* AlertViewTests.swift in Sources */,
 				2AB758EE29792C140033069B /* Inspection+Model.swift in Sources */,
-				2AB758F6297943B50033069B /* ActionSheetViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -946,7 +942,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2AA09E4C2978D0C4006DCB47 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+		2AFB0001297E2212007E4946 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/nalexn/ViewInspector";
 			requirement = {
@@ -957,19 +953,19 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2AA09E4D2978D0C4006DCB47 /* ViewInspector */ = {
+		2AFB0002297E2212007E4946 /* ViewInspector */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2AA09E4C2978D0C4006DCB47 /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			package = 2AFB0001297E2212007E4946 /* XCRemoteSwiftPackageReference "ViewInspector" */;
 			productName = ViewInspector;
 		};
-		2AA09E502978D0E0006DCB47 /* ViewInspector */ = {
+		2AFB0004297E2218007E4946 /* ViewInspector */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2AA09E4C2978D0C4006DCB47 /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			package = 2AFB0001297E2212007E4946 /* XCRemoteSwiftPackageReference "ViewInspector" */;
 			productName = ViewInspector;
 		};
-		2AB758E9297928120033069B /* ViewInspector */ = {
+		2AFB0006297E221D007E4946 /* ViewInspector */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2AA09E4C2978D0C4006DCB47 /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			package = 2AFB0001297E2212007E4946 /* XCRemoteSwiftPackageReference "ViewInspector" */;
 			productName = ViewInspector;
 		};
 /* End XCSwiftPackageProductDependency section */
